@@ -1,0 +1,9 @@
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: AKIAJMC7IU6PWOBNWM5A
+  secret_access_key:
+    secure: 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 
+  region: us-west-2  
+  app: My First Elastic Beanstalk Application 
+  env: Default-Environment
+  bucket_name: elasticbeanstalk-us-west-2-656616216713
